@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-top {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.header-top a {
+  font-family: serif;
+  font-weight: bold;
+  padding: 20px 25px;
+  font-size: 12px;
+  transition: all 0.5s;
+}
+
+.header-top a:hover {
+  cursor: pointer;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tag:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #880000;
+}
+
+.Select-tag {
+  background-color: #880000;
+  color: white;
+}
+
+.main-wrapper {
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-image: url("https://static.wixstatic.com/media/403c3a_21e6b94a18cb49eb95e8a8c329b06b4b~mv2_d_2500_1663_s_2.jpg/v1/fill/w_1920,h_1277,al_c,q_85,usm_0.66_1.00_0.01/403c3a_21e6b94a18cb49eb95e8a8c329b06b4b~mv2_d_2500_1663_s_2.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 3265px;
+  z-index: 1;
+}
+
+.main-container {
+  margin: 0 auto;
+  height: 2800px;
+  width: 750px;
+  background-image: url("008-cover-book0.png");
+}
+
+.main-container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 60px 0 60px 0;
+  color: #880000;
+}
+
+#party-image {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.party-image {
+  width: 620px;
+  height: 340px;
+  border: 10px ridge white;
+}
+
+#party-image p {
+  padding-top: 20px;
+  line-height: 24px;
+}
+
+.Reservetion-Party {
+  margin: 0 auto;
+  width: 620px;
+  line-height: 24px;
+}
+
+.contents-head {
+  text-align: center;
+  font-size: 24px;
+  padding: 50px 0 20px;
+}
+
+span {
+  color: rgba(154, 19, 19, 1);
+}
+
+.course {
+  padding-top: 30px;
+  display: flex;
+}
+
+.course-image {
+  margin-top: 20px;
+  width: 280px;
+  height: 180px;
+  border: 10px ridge white;
+}
+
+.course-image-c {
+  margin-top: 40px;
+  width: 280px;
+  height: 180px;
+  border: 10px ridge white;
+}
+
+.course-menu {
+  padding-left: 30px;
+}
+
+.course-head {
+  text-align: center;
+  font-size: 23px;
+  color: rgba(154, 19, 19, 1);
+  padding-bottom: 15px;
+}
+
+.note {
+  float: right;
+  font-size: 12px;
+}
+
+.input-form {
+  width: 630px;
+  height: 377px;
+}
+
+.name, .day, .time, .tel, .people, .contents {
+  width: 48%;
+  height: 12%;
+  margin: 5px 0 5px 0;
+}
+
+.name, .day, .time {
+  margin-right: 4%;
+}
+
+.hope {
+  margin-top: 5px;
+  resize: none;
+  width: 100%;
+  height: 180px;
+}
+
+.submit {
+  margin-left: 70%;
+  outline: none;
+  border: 2px solid rgb(112, 20, 20);
+  border-radius: 10px;
+  background-color: rgb(157, 31, 31);
+  font-weight: bold;
+  font-size: 100%;
+  color: white;
+  box-shadow: 0px 10px rgb(78, 11, 11);
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #24190E;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-logo {
+  font-size: 16px;
+  line-height: 70px;
+  padding-left: 20%;
+  color: white;
+}
